@@ -1,4 +1,4 @@
-![LandingMineLogo](https://github.com/FernadoCodeDev/LandingMine-remastered/blob/main/public/Image/LandingMine/LandingMine.webp)
+![LandingMineLogo](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/public/Image/LandingMine/LandingMine.webp)
 
 #   **LandingMine**
 
@@ -86,4 +86,5 @@ Estas propiedades permiten que el menú:
 - **✅ Se integre de forma fluida con la experiencia del usuario.**
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
+
 
