@@ -25,14 +25,14 @@ function Menu() {
         <div
           key={pizza.id}
           onClick={() => handleClick(pizza)}
-          className="flex flex-col h-full text-black transition duration-300 cursor-pointer dark:text-white hover:shadow-xl"
+          className="flex flex-col justify-between h-full text-black transition duration-300 cursor-pointer dark:text-white hover:shadow-xl"
         >
           <img
             src={pizza.image}
             alt={pizza.name}
             className="w-full h-auto p-2"
           />
-          <div className="flex flex-col gap-2 px-2 py-4">
+          <div className="flex flex-col justify-between gap-2 px-2 py-4">
             <h2 className="text-lg font-bold text-center sm:text-2xl">{pizza.name}</h2>
             <p className="text-lg text-center sm:text-xl">
               {pizza.price}
