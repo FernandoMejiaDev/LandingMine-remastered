@@ -6,8 +6,6 @@ import Home from "../../assets/svg/Home";
 import Collection from "../../assets/svg/Collection";
 import Pick from "../../assets/svg/Pick";
 
-
-
 import { Trans, useTranslation } from "react-i18next";
 
 const Navegation = () => {
@@ -154,7 +152,7 @@ const Navegation = () => {
                                 <button className="flex flex-row items-center w-full gap-2 p-2 rounded hover:bg-neutral-800">
                                     <Collection className="w-4 h-4 text-white" />
 
-                                    Coleción
+                                    Colección
                                 </button>
                             </a>
 
