@@ -32,7 +32,7 @@ Cada landing tiene su propio diseño y características especiales:
 
 - 🎭 **Diseño personalizado:** Cada página sigue un estilo acorde a su temática.  
 - 🌙 **Modos de color:** Algunas incluyen **Dark Mode** para mejorar la experiencia visual.  
-- 🎨 **Interactividad:** Se han agregado **Interactividad a cada landing ** para hacerlas más dinámicas.  
+- 🎨 **Interactividad:** Se han agregado **Interactividad a cada landing** para hacerlas más dinámicas.  
 
 Cada una de estas páginas permite experimentar con distintos enfoques de diseño y **crear interfaces Front-End adaptadas a diversas necesidades**.  
 
@@ -86,5 +86,6 @@ Estas propiedades permiten que el menú:
 - **✅ Se integre de forma fluida con la experiencia del usuario.**
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
+
 
 
