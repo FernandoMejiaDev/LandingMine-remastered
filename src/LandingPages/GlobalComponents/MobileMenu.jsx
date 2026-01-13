@@ -33,13 +33,13 @@ const MobileMenu = ({
         ${isMobile ? "flex flex-col" : "flex flex-row max-h-none opacity-100"}`}
       >
         <a href="/" className={`p-2 text-base md:text-xl font-bold ${bgColor} ${textColor} ${hoverColor}`}>
-          Home
+          Inicio
         </a>
         <a href="/" className={`p-2 text-base md:text-xl font-bold ${bgColor} ${textColor} ${hoverColor}`}>
-          Contact
+          Nosotros
         </a>
         <a href="/" className={`p-2 text-base md:text-xl font-bold ${bgColor} ${textColor} ${hoverColor}`}>
-          Us
+          Contacto
         </a>
       </nav>
     </div>
