@@ -209,8 +209,6 @@ Landing page ideal para **clínicas dentales** que desean ofrecer sus servicios,
 
 </details>
 
-</details>
-
 <details>
 <summary>Camping Night</summary>
   
@@ -228,5 +226,9 @@ Una landing para chats con **inteligencia artificial,** perfecta para presentar 
 ![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/StarIA.webp)
 
 </details>
+</details>
 
 </details>
+
+</details>
+
