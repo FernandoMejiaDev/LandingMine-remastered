@@ -191,9 +191,42 @@ Landing page pensada para **academias de Karate** o defensa personal que desean 
 
 </details>
 
+<details>
+<summary>Morgana</summary>
+  
+Pensada para **concesionarias de autos** que quieren presentar su catálogo de vehículos y atraer potenciales compradores.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/Morgana.webp)
+
 </details>
 
+<details>
+<summary>Gold Teeth</summary>
+  
+Landing page ideal para **clínicas dentales** que desean ofrecer sus servicios, generar confianza y captar nuevos pacientes.
 
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/GoldTeeth.webp)
 
+</details>
 
+</details>
 
+<details>
+<summary>Camping Night</summary>
+  
+Diseñada para empresas de **campamentos** que buscan promocionar experiencias al aire libre y atraer a los amantes de la naturaleza.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/CampingNight.webp)
+
+</details>
+
+<details>
+<summary>StarIA</summary>
+  
+Una landing para chats con **inteligencia artificial,** perfecta para presentar sus funciones y casos de uso en distintos contextos.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/StarIA.webp)
+
+</details>
+
+</details>
