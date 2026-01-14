@@ -155,7 +155,44 @@ Landing enfocada en **agencias de viaje** que buscan inspirar a sus clientes y m
 
 </details>
 
+<details>
+<summary>Cooktopia Shop</summary>
+  
+Landing page pensada para una **tienda de artículos de cocina** que buscan vender sus productos de forma moderna y organizada.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/CooktopiaShop.webp)
+
 </details>
+
+<details>
+<summary>Dream House</summary>
+  
+Ideal para **agencias inmobiliarias** que quieren mostrar propiedades destacadas y captar nuevos compradores o arrendatarios.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/DreamHouse.webp)
+
+</details>
+
+<details>
+<summary>Flashing</summary>
+  
+Landing page pensada para **empresas que organizan convenciones, encuentros o experiencias en vivo,** Ideal para negocios que buscan mostrar su profesionalismo.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/Flashing.webp)
+
+</details>
+
+<details>
+<summary>Shinrai</summary>
+  
+Landing page pensada para **academias de Karate** o defensa personal que desean transmitir disciplina, respeto y confianza.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/Shinrai.webp)
+
+</details>
+
+</details>
+
 
 
 
