@@ -87,5 +87,148 @@ Estas propiedades permiten que el menú:
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
 
+<details>
+<summary>Landing Pages</summary>
 
+<details>
+<summary>LandingMine</summary>
+
+### Diseños que inspiran. Código que impresiona.
+Explora una colección de landing pages, pensadas para destacar en cualquier sector.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMineHome.webp)
+
+> Página de Inicio de LandingMine
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMineCollection.webp)
+
+> Página de colección de LandingMine
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMineAbout.webp)
+
+> Página sobre el proyecto LandingMine
+
+</details>
+
+<details>
+<summary>Pizza Up</summary>
+  
+Una landing page ideal para **pizzerías** que buscan atraer más clientes y mostrar su menú de forma visual y atractiva.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/PizzaUp.webp)
+
+</details>
+
+<details>
+<summary>GYM</summary>
+  
+Landing page pensada para **gimnasios** que quieren promocionar sus servicios, destacar sus entrenadores y captar nuevos miembros.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/GYM.webp)
+
+</details>
+
+<details>
+<summary>Marketing Agency</summary>
+  
+Diseñada para agencias de **marketing digital** que necesitan una presentación profesional para captar clientes y mostrar su portafolio.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/MarketingAgency.webp)
+
+</details>
+
+<details>
+<summary>Pig Bank</summary>
+  
+Una landing para **bancos o fintechs** que desean transmitir confianza y presentar sus productos financieros de forma clara.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/PigBank.webp)
+
+</details>
+
+<details>
+<summary>Good Trip</summary>
+  
+Landing enfocada en **agencias de viaje** que buscan inspirar a sus clientes y mostrar sus paquetes turísticos de manera atractiva.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/GoodTrip.webp)
+
+</details>
+
+<details>
+<summary>Cooktopia Shop</summary>
+  
+Landing page pensada para una **tienda de artículos de cocina** que buscan vender sus productos de forma moderna y organizada.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/CooktopiaShop.webp)
+
+</details>
+
+<details>
+<summary>Dream House</summary>
+  
+Ideal para **agencias inmobiliarias** que quieren mostrar propiedades destacadas y captar nuevos compradores o arrendatarios.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/DreamHouse.webp)
+
+</details>
+
+<details>
+<summary>Flashing</summary>
+  
+Landing page pensada para **empresas que organizan convenciones, encuentros o experiencias en vivo,** Ideal para negocios que buscan mostrar su profesionalismo.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/Flashing.webp)
+
+</details>
+
+<details>
+<summary>Shinrai</summary>
+  
+Landing page pensada para **academias de Karate** o defensa personal que desean transmitir disciplina, respeto y confianza.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/Shinrai.webp)
+
+</details>
+
+<details>
+<summary>Morgana</summary>
+  
+Pensada para **concesionarias de autos** que quieren presentar su catálogo de vehículos y atraer potenciales compradores.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/Morgana.webp)
+
+</details>
+
+<details>
+<summary>Gold Teeth</summary>
+  
+Landing page ideal para **clínicas dentales** que desean ofrecer sus servicios, generar confianza y captar nuevos pacientes.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/GoldTeeth.webp)
+
+</details>
+
+<details>
+<summary>Camping Night</summary>
+  
+Diseñada para empresas de **campamentos** que buscan promocionar experiencias al aire libre y atraer a los amantes de la naturaleza.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/CampingNight.webp)
+
+</details>
+
+<details>
+<summary>StarIA</summary>
+  
+Una landing para chats con **inteligencia artificial,** perfecta para presentar sus funciones y casos de uso en distintos contextos.
+
+![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/StarIA.webp)
+
+</details>
+</details>
+
+</details>
+
+</details>
 
