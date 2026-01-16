@@ -221,7 +221,7 @@ Diseñada para empresas de **campamentos** que buscan promocionar experiencias a
 <details>
 <summary>StarIA</summary>
   
-Una landing para chats con **inteligencia artificial,** perfecta para presentar sus funciones y casos de uso en distintos contextos.
+Agente conversacional impulsado por **inteligencia artificial,** Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas.
 
 ![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/StarIA.webp)
 
@@ -231,4 +231,5 @@ Una landing para chats con **inteligencia artificial,** perfecta para presentar 
 </details>
 
 </details>
+
 
