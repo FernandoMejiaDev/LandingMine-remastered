@@ -1,6 +1,6 @@
 ![LandingMineLogo](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/public/Image/LandingMine/LandingMine.webp)
 
-#   **LandingMine**
+# LandingMine
 
 Catálogo de 13 landing pages con temáticas variadas (restaurantes, e-commerce, inmobiliarias, y más), diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.
 
@@ -72,10 +72,10 @@ Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. 
 
 Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
 
-### 🔆 DarkMode.jsx
+## 🔆 DarkMode
 Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
 
-### 📱 MobileMenu.jsx
+## 📱 MobileMenu
 Este componente maneja el menú móvil, que aparece en pantallas menores a md (768px en Tailwind CSS). Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
 
 Para solucionar esto, **MobileMenu.jsx** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
@@ -231,3 +231,4 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 </details>
+
