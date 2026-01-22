@@ -67,7 +67,7 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 └── /utils      
 ```
 
-### 🌍 Componentes Globales
+## 🌍 Componentes Globales
 Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
 
 Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
@@ -231,4 +231,5 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 </details>
+
 
