@@ -1,6 +1,6 @@
 ![LandingMineLogo](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/public/Image/LandingMine/LandingMine.webp)
 
-#   **LandingMine**
+# LandingMine
 
 Catálogo de 13 landing pages con temáticas variadas (restaurantes, e-commerce, inmobiliarias, y más), diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.
 
@@ -44,8 +44,8 @@ Para mantener un código limpio y estructurado, cada landing page en **LandingMi
 
 Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
 
-- **LandingPage/** → Contiene todas las landing pages, cada una en su propia carpeta.  
-- **GlobalComponents/** → Contiene componentes reutilizables como `DarkMode` y `MenuMobile`.  
+- **LandingPage/** Contiene todas las landing pages, cada una en su propia carpeta.  
+- **GlobalComponents/** Contiene componentes reutilizables como `DarkMode` y `MenuMobile`.  
 
 Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
 
@@ -67,18 +67,18 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 └── /utils      
 ```
 
-### 🌍 Componentes Globales
+## 🌍 Componentes Globales
 Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
 
 Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
 
-### 🔆 DarkMode.jsx
+## 🔆 DarkMode
 Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
 
-### 📱 MobileMenu.jsx
-Este componente maneja el menú móvil, que aparece en pantallas menores a md (768px en Tailwind CSS). Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
+## 📱 MobileMenu
+Este componente maneja el menú móvil, que aparece en pantallas menores a md **(768px en Tailwind CSS).** Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
 
-Para solucionar esto, **MobileMenu.jsx** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
+Para solucionar esto, **MobileMenu** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
 
 Estas propiedades permiten que el menú:
 - **✅ Tenga colores adaptados al diseño de cada landing.**
@@ -232,4 +232,4 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 
 </details>
 
-
+---
