@@ -61,7 +61,7 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 │   /layout       ⬅ Estructura base: Header, Main y Footer
 │   │   ├── Header.astro
 │   │   ├── Main.astro
-│   │   ├── Footer.astro
+│   │   └── Footer.astro
 │── /pages
 │   └── Home.astro      ⬅ Página principal que renderiza toda la landing
 └── /utils      
@@ -233,3 +233,4 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 ---
+
