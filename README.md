@@ -55,16 +55,20 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 
    ```
 /LandingPage
-│── /assets           ⬅ Imágenes, íconos, fuentes, etc.
-│── /components
-│   │── /ui           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
-│   /layout       ⬅ Estructura base: Header, Main y Footer
-│   │   ├── Header.astro
-│   │   ├── Main.astro
-│   │   └── Footer.astro
-│── /pages
+│── assets/ ⬅ Imágenes, íconos, fuentes, etc.
+│            
+│── components/
+│   └── ui/           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
+│
+│── layout/       ⬅ Estructura base: Header, Main y Footer
+│   ├── Header.astro
+│   ├── Main.astro
+│   └── Footer.astro
+│
+│── pages/
 │   └── Home.astro      ⬅ Página principal que renderiza toda la landing
-└── /utils      
+│
+└── utils/      
 ```
 
 ## 🌍 Componentes Globales
@@ -233,4 +237,5 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 ---
+
 
