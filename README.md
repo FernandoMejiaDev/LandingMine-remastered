@@ -118,12 +118,12 @@ Explora una colección de landing pages, pensadas para destacar en cualquier sec
 
 > Página sobre el proyecto LandingMine
 
-<br>
-
 </details>
 
 <details>
 <summary>Pizza Up</summary>
+
+<br>
   
 Una landing page ideal para **pizzerías** que buscan atraer más clientes y mostrar su menú de forma visual y atractiva.
 
@@ -133,6 +133,8 @@ Una landing page ideal para **pizzerías** que buscan atraer más clientes y mos
 
 <details>
 <summary>GYM</summary>
+
+<br>
   
 Landing page pensada para **gimnasios** que quieren promocionar sus servicios, destacar sus entrenadores y captar nuevos miembros.
 
@@ -245,6 +247,7 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 ---
+
 
 
 
