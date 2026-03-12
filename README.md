@@ -106,13 +106,19 @@ Explora una colección de landing pages, pensadas para destacar en cualquier sec
 
 > Página de Inicio de LandingMine
 
+<br>
+
 ![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMineCollection.webp)
 
 > Página de colección de LandingMine
 
+<br>
+
 ![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMineAbout.webp)
 
 > Página sobre el proyecto LandingMine
+
+<br>
 
 </details>
 
@@ -239,6 +245,7 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 ---
+
 
 
 
