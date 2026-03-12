@@ -94,6 +94,8 @@ Gracias a esta estructura, cada landing page tiene su propio estilo sin perder c
 <details>
 <summary>Landing Pages</summary>
 
+<br>
+
 <details>
 <summary>LandingMine</summary>
 
@@ -237,5 +239,6 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 </details>
 
 ---
+
 
 
