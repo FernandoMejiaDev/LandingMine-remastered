@@ -1,4 +1,9 @@
 ---
+import { Image } from "astro:assets";
+import dublin from "../../../../public/Image/GoodTrip/dublin.webp";
+import japan from "../../../../public/Image/GoodTrip/japan.webp";
+import sídney from "../../../../public/Image/GoodTrip/sídney.webp";
+import venice from "../../../../public/Image/GoodTrip/venice.webp";
 import Date from "../assets/svg/Date";
 import Tour from "../assets/svg/Tour";
 import Accommodation from "../assets/svg/Accommodation";
@@ -14,7 +19,13 @@ import Accommodation from "../assets/svg/Accommodation";
     <div
       class="flex flex-col h-full hover:shadow-xl bg-slate-200 dark:bg-zinc-900 rounded-xl"
     >
-      <img src="/Image/GoodTrip/dublin.webp" alt="alt" class="rounded-t-xl" />
+      <Image
+        src={dublin}
+        alt="alt"
+        class="w-full h-auto rounded-xl"
+        width={800}
+        height={800}
+      />
 
       <div class="flex flex-col items-start justify-start gap-4 p-4">
         <div class="flex flex-row justify-between w-full md:flex-col">
@@ -63,7 +74,14 @@ import Accommodation from "../assets/svg/Accommodation";
     <div
       class="flex flex-col h-full hover:shadow-xl bg-slate-200 dark:bg-zinc-900 rounded-xl"
     >
-      <img src="/Image/GoodTrip/japan.webp" alt="alt" class="rounded-t-xl" />
+
+      <Image
+        src={japan}
+        alt="alt"
+        class="w-full h-auto rounded-xl"
+        width={800}
+        height={800}
+      />
 
       <div class="flex flex-col items-start justify-start gap-4 p-4">
         <div class="flex flex-row justify-between w-full md:flex-col">
@@ -112,7 +130,14 @@ import Accommodation from "../assets/svg/Accommodation";
     <div
       class="flex flex-col h-full hover:shadow-xl bg-slate-200 dark:bg-zinc-900 rounded-xl"
     >
-      <img src="/Image/GoodTrip/sídney.webp" alt="alt" class="rounded-t-xl" />
+
+      <Image
+        src={sídney}
+        alt="alt"
+        class="w-full h-auto rounded-xl"
+        width={800}
+        height={800}
+      />
 
       <div class="flex flex-col items-start justify-start gap-4 p-4">
         <div class="flex flex-row justify-between w-full md:flex-col">
@@ -157,7 +182,14 @@ import Accommodation from "../assets/svg/Accommodation";
     <div
       class="flex flex-col h-full hover:shadow-xl bg-slate-200 dark:bg-zinc-900 rounded-xl"
     >
-      <img src="/Image/GoodTrip/venice.webp" alt="alt" class="rounded-t-xl" />
+
+      <Image
+        src={venice}
+        alt="alt"
+        class="w-full h-auto rounded-xl"
+        width={800}
+        height={800}
+      />
 
       <div class="flex flex-col items-start justify-start gap-4 p-4">
         <div class="flex flex-row justify-between w-full md:flex-col">

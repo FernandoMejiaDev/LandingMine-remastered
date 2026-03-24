@@ -1,13 +1,24 @@
 ---
-
+import { Image } from "astro:assets";
+import argentina from "../../../../public/Image/GoodTrip/argentina.webp";
+import eeuu from "../../../../public/Image/GoodTrip/eeuu.webp";
+import england from "../../../../public/Image/GoodTrip/england.webp";
+import france from "../../../../public/Image/GoodTrip/france.webp";
+import guatemala from "../../../../public/Image/GoodTrip/guatemala.webp";
+import italy from "../../../../public/Image/GoodTrip/italy.webp";
+import Netherlands from "../../../../public/Image/GoodTrip/Netherlands.webp";
+import Spain from "../../../../public/Image/GoodTrip/Spain.webp";
+import turkiye from "../../../../public/Image/GoodTrip/turkiye.webp";
 ---
 
 <div class="grid grid-cols-2 gap-4 md:grid-rows-5 md:grid-cols-3">
   <div class="relative col-span-2 group md:col-span-2">
-    <img
-      src="/Image/GoodTrip/argentina.webp"
+    <Image
+      src={argentina}
       alt="alt"
       class="inset-0 object-cover w-full transition-all duration-300 h-96 rounded-xl"
+      width={800}
+      height={384}
     />
 
     <div
@@ -26,10 +37,12 @@
   </div>
 
   <div class="relative group md:row-span-2 md:col-start-3">
-    <img
-      src="/Image/GoodTrip/eeuu.webp"
+    <Image
+      src={eeuu}
       alt="alt"
-      class="inset-0 object-cover h-[28rem] md:h-full transition-all duration-300 w-96 rounded-xl"
+      class="inset-0 object-cover md:w-full w-96 h-96 md:h-full rounded-xl"
+      width={800}
+      height={448}
     />
 
     <div
@@ -48,18 +61,18 @@
   </div>
 
   <div class="relative group md:row-span-2 md:row-start-2">
-    <img
-      src="/Image/GoodTrip/england.webp"
+    <Image
+      src={england}
       alt="alt"
-      class="inset-0 object-cover h-[28rem] md:h-full transition-all duration-300 w-96 rounded-xl"
+      class="inset-0 object-cover md:w-full w-96 h-96 md:h-full rounded-xl"
+      width={800}
+      height={448}
     />
 
     <div
       class="absolute bottom-0 left-0 z-10 flex flex-col items-center justify-center w-full h-full gap-2 p-4 m-auto text-center text-white transition-all duration-300 opacity-100 rounded-xl bg-black/60 xl:opacity-0 xl:group-hover:opacity-100"
     >
-      <h1 class="text-lg font-bold md:text-xl">
-        Encanto Histórico en Londres
-      </h1>
+      <h1 class="text-lg font-bold md:text-xl">Encanto Histórico en Londres</h1>
 
       <p class="text-sm md:text-base">
         Desde el majestuoso Big Ben hasta los puentes sobre el Támesis, Londres
@@ -70,10 +83,12 @@
   </div>
 
   <div class="relative group col-span-2 md:col-span-1 md:row-start-2;">
-    <img
-      src="/Image/GoodTrip/france.webp"
+    <Image
+      src={france}
       alt="alt"
-      class="inset-0 object-cover w-full transition-all duration-300 h-96 rounded-xl"
+      class="inset-0 object-cover w-full h-96 rounded-xl"
+      width={800}
+      height={384}
     />
 
     <div
@@ -90,10 +105,12 @@
   </div>
 
   <div class="relative group md:col-span-2 md:col-start-2 md:row-start-3">
-    <img
-      src="/Image/GoodTrip/guatemala.webp"
+    <Image
+      src={guatemala}
       alt="alt"
-      class="inset-0 object-cover w-full transition-all duration-300 h-96 rounded-xl"
+      class="inset-0 object-cover w-full h-96 rounded-xl"
+      width={800}
+      height={384}
     />
 
     <div
@@ -112,10 +129,12 @@
   </div>
 
   <div class="relative group md:col-span-2 md:row-start-4">
-    <img
-      src="/Image/GoodTrip/italy.webp"
+    <Image
+      src={italy}
       alt="alt"
       class="inset-0 object-cover w-full transition-all duration-300 h-96 rounded-xl"
+      width={800}
+      height={384}
     />
 
     <div
@@ -134,10 +153,12 @@
   <div
     class="relative col-span-2 group md:col-span-1 md:row-span-2 md:col-start-3 md:row-start-4"
   >
-    <img
-      src="/Image/GoodTrip/Netherlands.webp"
+    <Image
+      src={Netherlands}
       alt="alt"
-      class="inset-0 object-cover w-full transition-all duration-300 h-96 md:h-full rounded-xl"
+      class="inset-0 object-cover w-full h-96 md:h-full rounded-xl"
+      width={800}
+      height={384}
     />
 
     <div
@@ -156,10 +177,12 @@
   </div>
 
   <div class="relative group md:row-start-5">
-    <img
+    <Image
       src="/Image/GoodTrip/spain.webp"
       alt="alt"
-      class="inset-0 object-cover transition-all duration-300 w-96 h-96 rounded-xl"
+      class="inset-0 object-cover w-96 md:w-full h-96 rounded-xl"
+      width={384}
+      height={384}
     />
 
     <div
@@ -179,7 +202,9 @@
     <img
       src="/Image/GoodTrip/turkiye.webp"
       alt="alt"
-      class="inset-0 object-cover transition-all duration-300 w-96 h-96 rounded-xl"
+      class="inset-0 object-cover md:w-full w-96 h-96 rounded-xl"
+      width={384}
+      height={384}
     />
 
     <div
