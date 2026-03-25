@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import LandingMineB from "../../../../public/Image/LandingMine/LandingMineB.webp";
 import Navegation from "../components/ui/Navegation";
 import CollectionLandingXS from "../layout/CollectionLandingXS.astro";
 import CollectionLandingLG from "../layout/CollectionLandingLG.astro";
@@ -11,12 +13,17 @@ import "../../../styles/index.css";
   <Navegation client:load />
   <div class="flex flex-col w-full max-w-[100rem] m-auto">
     <div class="relative w-full h-auto">
-      <div
-        class="absolute inset-0 w-full h-auto bg-center bg-cover"
-        style={{
-          backgroundImage: `url(/Image/LandingMine/LandingMineB.webp)`,
-        }}
-      >
+      <div class="absolute inset-0 w-full h-auto bg-center bg-cover">
+        <Image
+          src={LandingMineB}
+          alt=""
+          class="absolute inset-0 w-full h-full bg-center bg-cover object-cover"
+          width={1920}
+          height={1080}
+          sizes="100vw"
+          widths={[640, 1024, 1600, 1920]}
+        />
+
         <div
           class="absolute bottom-0 left-0 flex flex-col items-center justify-center w-full h-full bg-black/60"
         >
