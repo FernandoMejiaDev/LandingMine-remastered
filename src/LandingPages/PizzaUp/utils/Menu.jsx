@@ -31,6 +31,7 @@ function Menu() {
             src={pizza.image}
             alt={pizza.name}
             className="w-full h-auto p-2"
+            loading="lazy"
           />
           <div className="flex flex-col justify-between gap-2 px-2 py-4">
             <h2 className="text-lg font-bold text-center sm:text-2xl">{pizza.name}</h2>

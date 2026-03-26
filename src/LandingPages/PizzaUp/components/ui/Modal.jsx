@@ -75,10 +75,15 @@ export default function Modal({ isOpen, onClose, pizza }) {
 
                 <div className="relative grid w-full grid-cols-1 gap-2 md:grid-cols-2">
                     <div className="">
-                        <img src={pizza.image} alt={pizza.name} className="object-contain m-auto w-80 h-80" />
+                        <img
+                            src={pizza.image}
+                            alt={pizza.name}
+                            className="object-contain m-auto w-80 h-80"
+                            loading="lazy"
+                        />
 
                         <div className="grid items-center justify-center grid-cols-1 md:grid-cols-3">
-                        <h2 className="mb-2 text-xl font-bold md:text-2xl md:hidden">{pizza.name}</h2>
+                            <h2 className="mb-2 text-xl font-bold md:text-2xl md:hidden">{pizza.name}</h2>
                             <select className="w-full text-black md:hidden">
                                 <option value="" disabled selected> Tamaño</option>
                                 <option>Pequeña</option>
@@ -91,12 +96,12 @@ export default function Modal({ isOpen, onClose, pizza }) {
 
                     <div className="flex flex-col items-center justify-end gap-2 md:mt-8">
                         <h2 className="hidden mb-2 text-xl font-bold md:text-2xl md:block">{pizza.name}</h2>
-                            <select className="hidden w-full text-black md:block">
-                                <option value="" disabled selected> Tamaño</option>
-                                <option>Pequeña</option>
-                                <option>Mediana</option>
-                                <option>Grande</option>
-                            </select>
+                        <select className="hidden w-full text-black md:block">
+                            <option value="" disabled selected> Tamaño</option>
+                            <option>Pequeña</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
                         <p className="text-lg">{pizza.price}</p>
                         <p className="text-base text-white">{pizza.description}</p>
 

@@ -1,11 +1,13 @@
 ---
+import { Image } from "astro:assets";
+import PizzaUp from "../../../../public/Image/PizzaUp/PizzaUp.webp";
 import DarkMode from "../../GlobalComponents/DarkMode";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
 import Car from "../assets/svg/Car";
 ---
 
 <!--Movil -->
-<div class="flex flex-col w-full gap-2 p-4 md:hidden">
+<div class="flex flex-col w-full gap-4 p-4 md:hidden">
   <div class="flex flex-col p-2 ms-auto">
     <div
       class="flex flex-row items-center justify-center gap-4 p-2 mx-auto text-center bg-red-500 rounded-xl"
@@ -24,10 +26,12 @@ import Car from "../assets/svg/Car";
     </div>
   </div>
 
-  <img
-    src="/Image/PizzaUp/PizzaUp.webp"
+  <Image
+    src={PizzaUp}
     alt="Img"
     class="object-contain w-40 h-40 mx-auto dark:invert"
+    width={800}
+    height={384}
   />
 
   <div
@@ -62,10 +66,12 @@ import Car from "../assets/svg/Car";
     </div>
   </div>
 
-  <img
-    src="/Image/PizzaUp/PizzaUp.webp"
+  <Image
+    src={PizzaUp}
     alt="Img"
     class="object-contain w-40 h-40 mx-auto dark:invert"
+    width={800}
+    height={384}
   />
 
   <div
