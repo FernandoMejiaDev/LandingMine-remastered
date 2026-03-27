@@ -127,6 +127,7 @@ export default function Slider() {
                                 src={pkg.image}
                                 alt={pkg.title}
                                 className="w-40 h-auto p-2 mx-auto mb-4"
+                                loading="lazy"
                             />
                             <h2 className="mb-4 text-lg font-bold md:text-xl">{pkg.price}</h2>
                             <div className="mb-4">

@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import GYMLogo from "../../../../public/Image/GYM/GYMLogo.webp";
 import MobileMenu from "../../GlobalComponents/MobileMenu";
 import DarkMode from "../../GlobalComponents/DarkMode";
 ---
@@ -7,10 +9,12 @@ import DarkMode from "../../GlobalComponents/DarkMode";
   <div
     class="grid items-center justify-center w-full h-auto grid-cols-2 md:grid-cols-3"
   >
-    <img
-      src="/Image/GYM/GYMLogo.webp"
-      alt="GymLogo"
+    <Image
+      src={GYMLogo}
+      alt="alt"
       class="object-contain w-40 h-40 mx-auto cursor-pointer"
+      width={800}
+      height={384}
     />
 
     <div
@@ -33,5 +37,4 @@ import DarkMode from "../../GlobalComponents/DarkMode";
       </div>
     </div>
   </div>
-
 </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Masonry from "react-masonry-css";
 import DigitalCard from "../assets/svg/DigitalCard";
 import App from "../assets/svg/App";
 import InternationalPayment from "../assets/svg/InternationalPayment";

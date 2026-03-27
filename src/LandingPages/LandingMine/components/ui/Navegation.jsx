@@ -6,8 +6,6 @@ import Home from "../../assets/svg/Home";
 import Collection from "../../assets/svg/Collection";
 import Pick from "../../assets/svg/Pick";
 
-import { Trans, useTranslation } from "react-i18next";
-
 const Navegation = () => {
     const [darkMode, setDarkMode] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
