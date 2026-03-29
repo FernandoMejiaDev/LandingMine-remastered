@@ -53,7 +53,12 @@ export default function Cards({ isOpen, onClose, Customer }) {
 
 
         <div className="flex flex-col items-center justify-center w-full gap-4 py-4">
-          <img src={Customer.image} alt={Customer.image} className="object-contain rounded w-80 h-80" />
+          <img 
+          src={Customer.image} 
+          alt={Customer.image} 
+          className="object-contain rounded w-80 h-80" 
+          loading="lazy"
+          />
 
         <div className="w-[80%] h-2 border-t-2 border-gray-800 "></div>
 

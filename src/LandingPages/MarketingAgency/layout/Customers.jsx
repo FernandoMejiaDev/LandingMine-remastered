@@ -32,6 +32,7 @@ function CustomersCards() {
             src={Customer.image}
             alt="Project"
             className="object-contain w-40 h-40 m-auto"
+            loading="lazy"
           />
         </div>
       ))}
