@@ -54,18 +54,18 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 
    ```
 /LandingPage
-│── assets/ ⬅ Imágenes, íconos, fuentes, etc.
+│── assets/ # Imágenes, íconos, fuentes, etc.
 │            
 │── components/
-│   └── ui/           ⬅ Componentes reutilizables (botones, tarjetas, etc.)
+│   └── ui/ # Componentes reutilizables (botones, tarjetas, etc.)
 │
-│── layout/       ⬅ Estructura base: Header, Main y Footer
+│── layout/ # Estructura base: Header, Main y Footer
 │   ├── Header.astro
 │   ├── Main.astro
 │   └── Footer.astro
 │
 │── pages/
-│   └── Home.astro      ⬅ Página principal que renderiza toda la landing
+│   └── Home.astro # Página principal que renderiza toda la landing
 │
 └── utils/      
 ```
