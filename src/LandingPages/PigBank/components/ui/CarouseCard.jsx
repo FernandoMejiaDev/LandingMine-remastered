@@ -13,7 +13,7 @@ const packages = [
   {
     id: 2,
     title: "Pig Clásica",
-     image: "/Image/PigBank/CardPink.webp",
+    image: "/Image/PigBank/CardPink.webp",
     text: "Una tarjeta para tu día a día. Más beneficios, más libertad y la confianza de tener una compañera segura y versátil para tus compras personales.",
     Cashback: "5%",
     Profitability: "5%",
@@ -21,7 +21,7 @@ const packages = [
   {
     id: 3,
     title: "Pig Pro",
-     image: "/Image/PigBank/CardBlack.webp",
+    image: "/Image/PigBank/CardBlack.webp",
     text: "Hecha para emprendedores. Disfruta de un mayor límite de crédito, herramientas para gestionar tus gastos y una rentabilidad especial pensada para impulsar tus proyectos.",
     Cashback: "10%",
     Profitability: "10%",
@@ -104,14 +104,14 @@ export default function Slider() {
                 src={pkg.image}
                 alt={pkg.title}
                 className="w-full h-auto mb-4 rounded-3xl"
+                loading="lazy"
               />
 
               <button
-                className={`transition-all mb-4 duration-700 ease-out w-full font-semibold text-lg lg:text-xl p-2 text-white bg-emerald-600 rounded-2xl ${
-                  isSelected
+                className={`transition-all mb-4 duration-700 ease-out w-full font-semibold text-lg lg:text-xl p-2 text-white bg-emerald-600 rounded-2xl ${isSelected
                     ? "hover:bg-emerald-800 cursor-pointer"
                     : "cursor-default"
-                }`}
+                  }`}
                 disabled={!isSelected}
                 onClick={() => isSelected && setSelectedPackage(pkg)}
               >

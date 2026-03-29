@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import CardPink from "../../../../public/Image/PigBank/CardPink.webp";
 import HeaderPB from "../layout/HeaderPB.astro";
 import Background from "../layout/Background.astro";
 import FooterPB from "../layout/FooterPB.astro";
@@ -56,10 +58,12 @@ import CarouseCard from "../components/ui/CarouseCard";
         </div>
 
         <div class="flex items-start justify-start w-full p-8">
-          <img
-            src="/Image/PigBank/CardPink.webp"
-            alt="PingBankCard"
-            class="w-full h-auto object-contain rounded-3xl md:rotate-[70deg]"
+          <Image
+            src={CardPink}
+            alt="alt"
+            class="object-contain w-20 h-20 md:w-32 md:h-32 xl:w-40 xl:h-40 rotate-12"
+            width={800}
+            height={384}
           />
         </div>
 

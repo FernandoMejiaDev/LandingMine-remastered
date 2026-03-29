@@ -23,42 +23,43 @@ const Modal = ({ data, onClose }) => {
 
         <div className="grid items-center justify-center grid-cols-1 gap-4 mt-12 md:grid-cols-2">
           <div className="grid items-center justify-center grid-cols-1 gap-4">
-            <h1 className="text-2xl font-bold md:text-4xl ">{data.title}</h1>
+            <h1 className="text-xl font-bold md:text-2xl ">{data.title}</h1>
             <img
               src={data.image}
               alt={data.title}
               className="w-full m-auto rounded-3xl"
+              loading="lazy"
             />
-            <p className="text-base md:text-xl md:hidden">{data.text}</p>
+            <p className="text-sm md:text-base md:hidden">{data.text}</p>
           </div>
 
           <div className="grid items-center justify-center grid-cols-2 gap-2">
 
-            <p className="hidden col-span-2 text-base md:text-xl md:block">{data.text}</p>
+            <p className="hidden col-span-2 text-sm md:text-base md:block">{data.text}</p>
 
 
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-              <h1 className="text-base font-bold text-rose-600 md:text-xl">Pago Internacional</h1>
-              
-              <InternationalPayment width="32" height="32" className="m-auto"/>
+              <h1 className="text-base font-bold text-rose-600 md:text-lg">Pago Internacional</h1>
+
+              <InternationalPayment width="32" height="32" className="m-auto" />
             </div>
 
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-              <h1 className="text-base font-bold text-rose-600 md:text-xl">Seguridad Avanzada</h1>
-            
-              <Security width="32" height="32" className="m-auto"/>
+              <h1 className="text-base font-bold text-rose-600 md:text-lg">Seguridad Avanzada</h1>
+
+              <Security width="32" height="32" className="m-auto" />
             </div>
 
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-              <h1 className="text-base font-bold text-rose-600 md:text-xl">Cashback del {data.Cashback}</h1>
-           
-              <Cashback width="32" height="32" className="m-auto"/>
+              <h1 className="text-base font-bold text-rose-600 md:text-lg">Cashback del {data.Cashback}</h1>
+
+              <Cashback width="32" height="32" className="m-auto" />
             </div>
 
             <div className="grid items-center justify-center grid-cols-1 gap-2">
-              <h1 className="text-base font-bold text-rose-600 md:text-xl">Rentabilidad del {data.Profitability}</h1>
-        
-              <Profitability width="32" height="32" className="m-auto"/>
+              <h1 className="text-base font-bold text-rose-600 md:text-lg">Rentabilidad del {data.Profitability}</h1>
+
+              <Profitability width="32" height="32" className="m-auto" />
             </div>
           </div>
         </div>

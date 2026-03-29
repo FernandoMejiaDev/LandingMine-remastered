@@ -1,53 +1,73 @@
 ---
-
+import { Image } from "astro:assets";
+import BackgroundPB from "../../../../public/Image/PigBank/BackgroundPB.webp";
+import PigBankLogoNo from "../../../../public/Image/PigBank/PigBankLogoNo.2.webp";
+import CardPink from "../../../../public/Image/PigBank/CardPink.webp";
 ---
 
 <div class="relative flex flex-col items-center justify-center">
+  <Image
+    src={BackgroundPB}
+    alt="alt"
+    class="absolute inset-0 object-cover object-center bg-fixed w-full h-full"
+    width={1920}
+    height={1080}
+    sizes="100vw"
+    widths={[640, 1024, 1600, 1920]}
+  />
+
   <div
-    class="absolute inset-0 w-full h-auto bg-fixed bg-center bg-cover"
-    style={{
-      backgroundImage: `url(/Image/PigBank/BackgroundPB.webp)`,
-    }}
+    class="absolute bottom-0 left-0 flex flex-col items-center justify-center w-full h-full bg-rose-800/60"
   >
-    <div
-      class="absolute bottom-0 left-0 flex flex-col items-center justify-center w-full h-full bg-rose-800/60"
-    >
-    </div>
   </div>
 
   <div
     class="relative flex flex-col items-center justify-center py-12 text-center text-slate-100"
   >
-    <div class="flex items-center ">
-      <h1 class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl">
+    <div class="flex items-center">
+      <h1
+        class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl"
+      >
         La nueva
       </h1>
-      <img
-        src="/Image/PigBank/PigBankLogoNo.2.webp"
-        alt="PigBank"
+
+      <Image
+        src={PigBankLogoNo}
+        alt="alt"
         class="object-contain w-20 h-20 md:w-32 md:h-32 xl:w-40 xl:h-40 rotate-12"
+        width={800}
+        height={384}
       />
-      <h1 class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl">
+
+      <h1
+        class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl"
+      >
         forma de
       </h1>
     </div>
 
     <div class="flex items-center">
       <div class="flex p-8">
-        <img
-          src="/Image/PigBank/CardPink.webp"
-          alt="PingBankCard"
+        <Image
+          src={CardPink}
+          alt="alt"
           class="w-20 h-20 md:w-32 md:h-32 xl:w-40 xl:h-40 object-contain rounded-3xl rotate-[330deg]"
+          width={800}
+          height={384}
         />
       </div>
 
-      <h1 class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl">
+      <h1
+        class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl"
+      >
         vivir tus
       </h1>
     </div>
 
     <div>
-      <h1 class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl">
+      <h1
+        class="text-lg font-bold sm:text-2xl md:text-4xl xl:text-6xl 2xl:text-8xl"
+      >
         finanzas digitales
       </h1>
     </div>
