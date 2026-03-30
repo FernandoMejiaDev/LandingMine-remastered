@@ -1,5 +1,12 @@
 ---
-
+import { Image } from "astro:assets";
+import imgN5 from "../../../../public/Image/DreamHouse/imgN5.webp";
+import imgN6 from "../../../../public/Image/DreamHouse/imgN6.webp";
+import imgN7 from "../../../../public/Image/DreamHouse/imgN7.webp";
+import imgN8 from "../../../../public/Image/DreamHouse/imgN8.webp";
+import imgN9 from "../../../../public/Image/DreamHouse/imgN9.webp";
+import imgN10 from "../../../../public/Image/DreamHouse/imgN10.webp";
+import imgN11 from "../../../../public/Image/DreamHouse/imgN11.webp";
 ---
 
 <div class="flex flex-col items-center justify-center h-auto gap-4 p-4">
@@ -11,12 +18,13 @@
 
   <div class="grid grid-cols-2 gap-2 md:grid-rows-2 md:grid-cols-5">
     <div class="relative col-span-2 md:row-span-2 md:col-span-1">
-      <img
-        src="/Image/DreamHouse/imgN5.webp"
+      <Image
+        src={imgN5}
         alt="imgN5"
         class="inset-0 object-cover w-full h-96"
+        width={800}
+        height={800}
       />
-
       <div
         class="absolute inset-0 z-10 flex flex-col items-start justify-end w-full h-full p-4 m-auto text-center text-white bg-black/40"
       >
@@ -25,11 +33,13 @@
       </div>
     </div>
 
-    <div class="relative ">
-      <img
-        src="/Image/DreamHouse/imgN6.webp"
+    <div class="relative">
+      <Image
+        src={imgN6}
         alt="imgN6"
         class="inset-0 object-cover w-full h-full"
+        width={800}
+        height={800}
       />
       <div
         class="absolute inset-0 z-10 flex flex-col items-start justify-end p-4 m-auto text-center text-white bg-black/40"
@@ -40,10 +50,12 @@
     </div>
 
     <div class="relative md:col-start-2 md:row-start-2">
-      <img
-        src="/Image/DreamHouse/imgN7.webp"
+      <Image
+        src={imgN7}
         alt="imgN7"
         class="inset-0 object-cover w-full h-full"
+        width={800}
+        height={800}
       />
       <div
         class="absolute inset-0 z-10 flex flex-col items-start justify-end p-4 m-auto text-center text-white bg-black/40"
@@ -56,10 +68,12 @@
     <div
       class="relative col-span-2 md:col-span-1 md:row-span-2 md:col-start-3 md:row-start-1"
     >
-      <img
-        src="/Image/DreamHouse/imgN8.webp"
+      <Image
+        src={imgN8}
         alt="imgN8"
         class="inset-0 object-cover w-full h-96"
+        width={800}
+        height={800}
       />
       <div
         class="absolute inset-0 z-10 flex flex-col items-start justify-end p-4 m-auto text-center text-white bg-black/40"
@@ -70,10 +84,12 @@
     </div>
 
     <div class="relative md:col-start-4 md:row-start-1">
-      <img
-        src="/Image/DreamHouse/imgN9.webp"
+      <Image
+        src={imgN9}
         alt="imgN9"
         class="inset-0 object-cover w-full h-full"
+        width={800}
+        height={800}
       />
       <div
         class="absolute inset-0 z-10 flex flex-col items-start justify-end p-4 m-auto text-center text-white bg-black/40"
@@ -84,10 +100,12 @@
     </div>
 
     <div class="relative md:col-start-4 md:row-start-2">
-      <img
-        src="/Image/DreamHouse/imgN10.webp"
+      <Image
+        src={imgN10}
         alt="imgN10"
         class="inset-0 object-cover w-full h-full"
+        width={800}
+        height={800}
       />
       <div
         class="absolute inset-0 z-10 flex flex-col items-start justify-end p-4 m-auto text-center text-white bg-black/40"
@@ -100,10 +118,12 @@
     <div
       class="relative col-span-2 md:col-start-5 md:row-start-1 md:col-span-1 md:row-span-2"
     >
-      <img
-        src="/Image/DreamHouse/imgN11.webp"
+      <Image
+        src={imgN11}
         alt="imgN11"
         class="inset-0 object-cover w-full h-96"
+        width={800}
+        height={800}
       />
     </div>
   </div>

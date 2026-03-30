@@ -11,7 +11,12 @@ export default function Page4() {
       id="page4"
       className="grid grid-cols-1 m-auto max-w-[80rem] md:grid-cols-3 gap-4">
       <div className="relative bg-slate-50 dark:bg-zinc-900">
-        <img src="/Image/DreamHouse/imgN18.webp" alt="imgN18" className="w-full h-auto " />
+        <img
+          src="/Image/DreamHouse/imgN18.webp"
+          alt="imgN18"
+          className="w-full h-auto"
+          loading="lazy"
+        />
         <div className="absolute top-0 left-0 z-10 p-2 rounded-br-lg bg-emerald-600">
           <h2 className="text-base font-bold text-white md:text-xl">Alquiler</h2>
         </div>
@@ -62,7 +67,12 @@ export default function Page4() {
       </div>
 
       <div className="relative bg-slate-50 dark:bg-zinc-900">
-        <img src="/Image/DreamHouse/imgN19.webp" alt="imgN19" className="w-full h-auto" />
+        <img
+          src="/Image/DreamHouse/imgN19.webp"
+          alt="imgN19"
+          className="w-full h-auto"
+          loading="lazy"
+        />
         <div className="absolute top-0 left-0 z-10 p-2 rounded-br-lg bg-emerald-600">
           <h2 className="text-base font-bold text-white md:text-xl">Alquiler</h2>
         </div>
@@ -113,7 +123,12 @@ export default function Page4() {
       </div>
 
       <div className="relative bg-slate-50 dark:bg-zinc-900">
-        <img src="/Image/DreamHouse/imgN20.webp" alt="imgN20" className="w-full h-auto" />
+        <img
+          src="/Image/DreamHouse/imgN20.webp"
+          alt="imgN20"
+          className="w-full h-auto"
+          loading="lazy"
+        />
         <div className="absolute top-0 left-0 z-10 p-2 rounded-br-lg bg-emerald-600">
           <h2 className="text-base font-bold text-white md:text-xl">Alquiler</h2>
         </div>
