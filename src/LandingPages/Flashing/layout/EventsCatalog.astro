@@ -1,5 +1,11 @@
 ---
-
+import { Image } from "astro:assets";
+import MeetandGreet from "../../../../public/Image/Flashing/Meet&Greet.webp";
+import Conventions from "../../../../public/Image/Flashing/Conventions.webp";
+import Festival from "../../../../public/Image/Flashing/Festival.webp";
+import Wedding from "../../../../public/Image/Flashing/Wedding.webp";
+import CorporateEvents from "../../../../public/Image/Flashing/CorporateEvents.webp";
+import LaunchesAndPresentations from "../../../../public/Image/Flashing/LaunchesAndPresentations.webp";
 ---
 
 <div
@@ -15,10 +21,12 @@
 
   <div class="grid grid-cols-2 gap-4 mt-4 lg:hidden md:gap-8 md:grid-cols-3">
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/Flashing/Meet&Greet.webp"
-        alt="img"
+      <Image
+        src={MeetandGreet}
+        alt="alt"
         class="object-cover w-40 h-40 rounded-full"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Meet & Greet</h1>
@@ -29,10 +37,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/Flashing/Conventions.webp"
-        alt="img"
+      <Image
+        src={Conventions}
+        alt="alt"
         class="object-cover w-40 h-40 rounded-full"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Convenciones</h1>
@@ -43,10 +53,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/Flashing/Festival.webp"
-        alt="img"
+      <Image
+        src={Festival}
+        alt="alt"
         class="object-cover w-40 h-40 rounded-full"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Festivales</h1>
@@ -57,10 +69,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/Flashing/Wedding.webp"
-        alt="img"
+      <Image
+        src={Wedding}
+        alt="alt"
         class="object-cover w-40 h-40 rounded-full"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Bodas y Celebraciones</h1>
@@ -71,10 +85,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/Flashing/CorporateEvents.webp"
-        alt="img"
+      <Image
+        src={CorporateEvents}
+        alt="alt"
         class="object-cover w-40 h-40 rounded-full"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Eventos Corporativos</h1>
@@ -85,10 +101,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/Flashing/LaunchesAndPresentations.webp"
-        alt="img"
+      <Image
+        src={LaunchesAndPresentations}
+        alt="alt"
         class="object-cover w-40 h-40 rounded-full"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">
@@ -112,10 +130,12 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/Flashing/Meet&Greet.webp"
-            alt="img"
+          <Image
+            src={MeetandGreet}
+            alt="alt"
             class="object-cover w-full h-full rounded-full"
+            width={800}
+            height={800}
           />
         </div>
 
@@ -141,10 +161,12 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/Flashing/Conventions.webp"
-            alt="img"
+        <Image
+            src={Conventions}
+            alt="alt"
             class="object-cover w-full h-full rounded-full"
+            width={800}
+            height={800}
           />
         </div>
 
@@ -170,10 +192,12 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/Flashing/Festival.webp"
-            alt="img"
+          <Image
+            src={Festival}
+            alt="alt"
             class="object-cover w-full h-full rounded-full"
+            width={800}
+            height={800}
           />
         </div>
 
@@ -199,10 +223,12 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/Flashing/Wedding.webp"
-            alt="img"
+          <Image
+            src={Wedding}
+            alt="alt"
             class="object-cover w-full h-full rounded-full"
+            width={800}
+            height={800}
           />
         </div>
 
@@ -228,10 +254,12 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/Flashing/CorporateEvents.webp"
-            alt="img"
+          <Image
+            src={CorporateEvents}
+            alt="alt"
             class="object-cover w-full h-full rounded-full"
+            width={800}
+            height={800}
           />
         </div>
 
@@ -257,10 +285,12 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/Flashing/LaunchesAndPresentations.webp"
-            alt="img"
+          <Image
+            src={LaunchesAndPresentations}
+            alt="alt"
             class="object-cover w-full h-full rounded-full"
+            width={800}
+            height={800}
           />
         </div>
 

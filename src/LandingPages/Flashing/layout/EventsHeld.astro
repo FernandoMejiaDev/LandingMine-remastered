@@ -1,5 +1,9 @@
 ---
-
+import { Image } from "astro:assets";
+import Event1 from "../../../../public/Image/Flashing/Event1.webp";
+import Event2 from "../../../../public/Image/Flashing/Event2.webp";
+import Event3 from "../../../../public/Image/Flashing/Event3.webp";
+import Event4 from "../../../../public/Image/Flashing/Event4.webp";
 ---
 
 <div class="flex flex-col items-center justify-center gap-2 text-center">
@@ -17,10 +21,12 @@
     class="grid items-center justify-center grid-cols-1 gap-4 mt-4 md:grid-cols-2"
   >
     <div class="grid h-full grid-cols-1 md:grid-cols-2">
-      <img
-        src="/Image/Flashing/Event1.webp"
-        alt="img"
+      <Image
+        src={Event1}
+        alt="alt"
         class="object-cover w-full h-full"
+        width={800}
+        height={800}
       />
 
       <div
@@ -36,10 +42,12 @@
     </div>
 
     <div class="grid h-full grid-cols-1 md:grid-cols-2">
-      <img
-        src="/Image/Flashing/Event2.webp"
-        alt="img"
+      <Image
+        src={Event2}
+        alt="alt"
         class="object-cover w-full h-full"
+        width={800}
+        height={800}
       />
 
       <div
@@ -55,10 +63,12 @@
     </div>
 
     <div class="grid h-full grid-cols-1 md:grid-cols-2">
-      <img
-        src="/Image/Flashing/Event3.webp"
-        alt="img"
+      <Image
+        src={Event3}
+        alt="alt"
         class="object-cover w-full h-full"
+        width={800}
+        height={800}
       />
 
       <div
@@ -74,10 +84,12 @@
     </div>
 
     <div class="grid h-full grid-cols-1 md:grid-cols-2">
-      <img
-        src="/Image/Flashing/Event4.webp"
-        alt="img"
+      <Image
+        src={Event4}
+        alt="alt"
         class="object-cover w-full h-full"
+        width={800}
+        height={800}
       />
 
       <div
