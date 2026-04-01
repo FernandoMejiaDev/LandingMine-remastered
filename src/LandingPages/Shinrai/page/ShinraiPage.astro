@@ -1,11 +1,12 @@
 ---
+import { Image } from "astro:assets";
+import img11 from "../../../../public/Image/Shinrai/img11.webp";
 import HeaderShinrai from "../layout/HeaderShinrai.astro";
 import FeatureSection from "../layout/FeatureSection.astro";
 import RightSliderSection from "../utils/RightSliderSection.astro";
 import LeftSliderSection from "../utils/LeftSliderSection.astro";
 import FeatureSectionImg from "../layout/FeatureSectionImg.astro";
 import Package from "../components/ui/Packages";
-
 import FooterShinrai from "../layout/FooterShinrai.astro";
 ---
 
@@ -34,8 +35,8 @@ import FooterShinrai from "../layout/FooterShinrai.astro";
           <p class="text-base md:text-lg">
             En <span class="font-bold">Shinrai</span> enseñamos el verdadero significado
             del Karate: una disciplina que busca equilibrio, respeto y autocontrol.
-            Nuestro objetivo es formar personas seguras de sí mismas, capaces de
-            defenderse sin recurrir a la violencia.
+            Nuestro objetivo es formar personas seguras de sí mismas, capaces de defenderse
+            sin recurrir a la violencia.
           </p>
 
           <p class="text-base md:text-lg">
@@ -49,16 +50,17 @@ import FooterShinrai from "../layout/FooterShinrai.astro";
           </p>
         </div>
 
-        <img
-          src="/Image/Shinrai/img11.webp"
-          alt="alt"
+        <Image
+          src={img11}
+          alt="img11"
           class="object-cover w-full h-full"
+          width={800}
+          height={800}
         />
       </div>
-  
+
       <LeftSliderSection />
-      <RightSliderSection /> 
-   
+      <RightSliderSection />
     </section>
   </main>
 

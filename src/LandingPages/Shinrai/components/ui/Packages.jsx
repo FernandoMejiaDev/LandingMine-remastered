@@ -79,6 +79,7 @@ export default function fightersGrid() {
               src={fighter.image}
               alt="alt"
               className="object-contain m-auto w-60 h-60"
+              loading="lazy"
             />
           </div>
         ))}

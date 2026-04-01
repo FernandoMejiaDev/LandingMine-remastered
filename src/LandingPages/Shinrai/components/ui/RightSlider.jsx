@@ -32,6 +32,7 @@ export default function RightSlider({ images, direction = 'left' }) {
               src={img}
               alt={`dojo-${i}`}
               className="object-cover h-48 shadow-lg md:h-64 rounded-2xl"
+              loading="lazy"
             />
           </SwiperSlide>
         ))}

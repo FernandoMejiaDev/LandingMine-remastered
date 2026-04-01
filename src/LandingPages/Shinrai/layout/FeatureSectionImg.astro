@@ -1,18 +1,22 @@
 ---
-
+import { Image } from "astro:assets";
+import img28 from "../../../../public/Image/Shinrai/img28.webp";
 ---
 
 <div class="relative flex flex-col items-center justify-center">
+  <Image
+    src={img28}
+    alt=""
+    class="absolute inset-0 flex flex-col object-cover object-center w-full h-full object-fixed"
+    width={1920}
+    height={1080}
+    sizes="100vw"
+    widths={[640, 1024, 1600, 1920]}
+  />
+
   <div
-    class="absolute inset-0 w-full h-auto bg-center bg-cover"
-    style={{
-      backgroundImage: `url(/Image/Shinrai/img28.webp)`,
-    }}
+    class="absolute bottom-0 left-0 flex flex-col items-center justify-center w-full h-full backdrop-blur-[2px] bg-black/60"
   >
-    <div
-      class="absolute bottom-0 left-0 flex flex-col items-center justify-center w-full h-full backdrop-blur-[6px] bg-black/60"
-    >
-    </div>
   </div>
 
   <dv

@@ -32,7 +32,7 @@ export default function Slider() {
       setTimeout(() => {
         setIndex((prev) => (prev + 1) % cards.length);
         setAnimate(false);
-      }, 600); 
+      }, 600);
     }, 3000);
 
     return () => clearInterval(interval);
@@ -51,17 +51,17 @@ export default function Slider() {
               key={cards[leftIndex].id}
               src={cards[leftIndex].image}
               alt="left"
-              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${
-                animate ? "-translate-x-full opacity-0" : "translate-x-0 opacity-100"
-              }`}
+              loading="lazy"
+              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${animate ? "-translate-x-full opacity-0" : "translate-x-0 opacity-100"
+                }`}
             />
             <img
               key={cards[(leftIndex + 1) % cards.length].id}
               src={cards[(leftIndex + 1) % cards.length].image}
               alt="left-next"
-              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${
-                animate ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-              }`}
+              loading="lazy"
+              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${animate ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+                }`}
             />
           </div>
 
@@ -76,17 +76,17 @@ export default function Slider() {
               key={cards[rightIndex].id}
               src={cards[rightIndex].image}
               alt="right"
-              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${
-                animate ? "-translate-x-full opacity-0" : "translate-x-0 opacity-100"
-              }`}
+              loading="lazy"
+              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${animate ? "-translate-x-full opacity-0" : "translate-x-0 opacity-100"
+                }`}
             />
             <img
               key={cards[(rightIndex + 1) % cards.length].id}
               src={cards[(rightIndex + 1) % cards.length].image}
               alt="right-next"
-              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${
-                animate ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
-              }`}
+              loading="lazy"
+              className={`object-contain w-28 h-28 sm:w-40 sm:h-40 xl:w-80 xl:h-80 absolute transition-transform duration-700 ease-in-out ${animate ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+                }`}
             />
           </div>
 

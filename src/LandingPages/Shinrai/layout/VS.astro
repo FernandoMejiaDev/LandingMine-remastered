@@ -1,12 +1,16 @@
 ---
-
+import { Image } from "astro:assets";
+import img1 from "../../../../public/Image/Shinrai/img1.webp";
+import img2 from "../../../../public/Image/Shinrai/img2.webp";
 ---
 
 <div class="grid items-center justify-center grid-cols-2 gap-4 md:grid-cols-3">
-  <img
-    src="/Image/Shinrai/img1.webp"
-    alt="alt"
+  <Image
+    src={img1}
+    alt="img1"
     class="order-1 object-contain w-40 sm:w-56 md:w-72 lg:w-80"
+    width={800}
+    height={800}
   />
 
   <div
@@ -19,9 +23,11 @@
     </div>
   </div>
 
-  <img
-    src="/Image/Shinrai/img2.webp"
-    alt="alt"
+  <Image
+    src={img2}
+    alt="img2"
     class="order-2 object-contain w-40 sm:w-56 md:w-72 lg:w-80 md:order-3"
+    width={800}
+    height={800}
   />
 </div>
