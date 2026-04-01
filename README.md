@@ -1,4 +1,4 @@
-![LandingMineLogo](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/public/Image/LandingMine/LandingMine.webp)
+![LandingMineLogo](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMine.webp)
 
 # LandingMine
 
