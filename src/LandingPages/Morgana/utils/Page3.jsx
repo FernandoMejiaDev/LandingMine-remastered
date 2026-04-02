@@ -10,6 +10,7 @@ export default function Page3() {
           src="/Image/Morgana/LandRoverDiscovery.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
@@ -39,6 +40,7 @@ export default function Page3() {
           src="/Image/Morgana/CadillacEscalade.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
@@ -68,6 +70,7 @@ export default function Page3() {
           src="/Image/Morgana/BAICBJ40.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div

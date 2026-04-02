@@ -9,6 +9,7 @@ export default function Page1() {
           src="/Image/Morgana/TeslaModelX.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
@@ -38,6 +39,7 @@ export default function Page1() {
           src="/Image/Morgana/GenesisGV60.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
@@ -67,6 +69,7 @@ export default function Page1() {
           src="/Image/Morgana/TeslaModel3.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div

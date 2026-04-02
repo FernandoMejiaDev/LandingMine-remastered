@@ -9,6 +9,7 @@ export default function Page4() {
           src="/Image/Morgana/RenaultTalismán.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
@@ -38,6 +39,7 @@ export default function Page4() {
           src="/Image/Morgana/GMCAcadia.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
@@ -67,6 +69,7 @@ export default function Page4() {
           src="/Image/Morgana/RenaultClioIII.webp"
           alt="img"
           className="object-cover w-full h-full"
+          loading="lazy"
         />
 
         <div
