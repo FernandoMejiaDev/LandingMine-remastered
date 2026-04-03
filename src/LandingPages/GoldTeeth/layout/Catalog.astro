@@ -1,11 +1,15 @@
 ---
-
+import { Image } from "astro:assets";
+import BackgroundGoldTeeth from "../../../../public/Image/GoldTeeth/Background.webp";
+import img6 from "../../../../public/Image/GoldTeeth/img6.webp";
+import img7 from "../../../../public/Image/GoldTeeth/img7.webp";
+import img8 from "../../../../public/Image/GoldTeeth/img8.webp";
 ---
 
-<div
-  class="flex flex-col items-center justify-center gap-2 text-center "
->
-  <h1 class="text-xl font-bold md:text-2xl">Una sonrisa saludable empieza aquí</h1>
+<div class="flex flex-col items-center justify-center gap-2 text-center">
+  <h1 class="text-xl font-bold md:text-2xl">
+    Una sonrisa saludable empieza aquí
+  </h1>
   <p class="text-base md:text-lg max-w-[40rem]">
     Contamos con un servicio para contactar al médico en línea para una consulta
     sobre tu salud dental o preguntar horarios de trabajo en la clínica.
@@ -13,10 +17,12 @@
 
   <div class="grid grid-cols-1 gap-8 mt-4 lg:hidden md:gap-8 md:grid-cols-3">
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/GoldTeeth/img6.webp"
-        alt="img"
+      <Image
+        src={img6}
+        alt="img6"
         class="object-cover rounded-tr-[50%] rounded-bl-[50%] w-60 h-60"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Odontología general</h1>
@@ -28,10 +34,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/GoldTeeth/img7.webp"
-        alt="img"
+      <Image
+        src={img7}
+        alt="img7"
         class="object-cover rounded-tl-[50%] rounded-br-[50%] w-60 h-60"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Odontología cosmética</h1>
@@ -43,10 +51,12 @@
     </div>
 
     <div class="flex flex-col items-center justify-start gap-2">
-      <img
-        src="/Image/GoldTeeth/img8.webp"
-        alt="img"
+      <Image
+        src={img8}
+        alt="img8"
         class="object-cover rounded-tr-[50%] rounded-bl-[50%] w-60 h-60"
+        width={800}
+        height={800}
       />
 
       <h1 class="text-base font-bold md:text-lg">Odontología restauradora</h1>
@@ -69,27 +79,36 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/GoldTeeth/img6.webp"
-            alt="img"
+          <Image
+            src={img6}
+            alt="img6"
             class="object-cover w-full h-full rounded-tr-[50%] rounded-bl-[50%]"
+            width={800}
+            height={800}
           />
         </div>
 
         <!-- Reverse -->
 
         <div
-          class="absolute p-4 w-full h-full rounded-tl-[50%] rounded-br-[50%] text-slate-100 flex flex-col items-center justify-center gap-2 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]"
-          style={{
-            backgroundImage: `url(/Image/GoldTeeth/Background.webp)`,
-          }}
+          class="absolute w-full h-full rounded-tl-[50%] rounded-br-[50%] text-slate-100 flex flex-col items-center justify-center gap-2 text-center [transform:rotateY(180deg)] [backface-visibility:hidden] overflow-hidden"
         >
-          <h1 class="text-base font-bold">Odontología general</h1>
-          <p class="text-base">
-            Desde exámenes dentales regulares y limpiezas hasta empastes y
-            extracciones, nuestros servicios de odontología general están
-            diseñados para mantener su salud bucal en óptimas condiciones.
-          </p>
+          <Image
+            src={BackgroundGoldTeeth}
+            alt=""
+            class="absolute inset-0 object-cover w-full h-full"
+            width={800}
+            height={800}
+          />
+
+          <div class="relative z-10 p-4">
+            <h1 class="text-base font-bold">Odontología general</h1>
+            <p class="text-base">
+              Desde exámenes dentales regulares y limpiezas hasta empastes y
+              extracciones, nuestros servicios de odontología general están
+              diseñados para mantener su salud bucal en óptimas condiciones.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -102,27 +121,36 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/GoldTeeth/img7.webp"
-            alt="img"
+          <Image
+            src={img7}
+            alt="img7"
             class="object-cover w-full h-full rounded-tl-[50%] rounded-br-[50%]"
+            width={800}
+            height={800}
           />
         </div>
 
         <!-- Reverse -->
 
         <div
-          class="absolute p-4 w-full h-full rounded-tr-[50%] rounded-bl-[50%] text-slate-100 flex flex-col items-center justify-center gap-2 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]"
-          style={{
-            backgroundImage: `url(/Image/GoldTeeth/Background.webp)`,
-          }}
+          class="absolute w-full h-full rounded-tl-[50%] rounded-br-[50%] text-slate-100 flex flex-col items-center justify-center gap-2 text-center [transform:rotateY(180deg)] [backface-visibility:hidden] overflow-hidden"
         >
-          <h1 class="text-base font-bold">Odontología cosmética</h1>
-          <p class="text-base">
-            Transforme su sonrisa con nuestra gama de tratamientos dentales
-            cosméticos, que incluyen blanqueamiento dental, carillas y cambios
-            de imagen de la sonrisa. Consiga una sonrisa deslumbrante
-          </p>
+          <Image
+            src={BackgroundGoldTeeth}
+            alt=""
+            class="absolute inset-0 object-cover w-full h-full"
+            width={800}
+            height={800}
+          />
+
+          <div class="relative z-10 p-4">
+            <h1 class="text-base font-bold">Odontología cosmética</h1>
+            <p class="text-base">
+              Transforme su sonrisa con nuestra gama de tratamientos dentales
+              cosméticos, que incluyen blanqueamiento dental, carillas y cambios
+              de imagen de la sonrisa. Consiga una sonrisa deslumbrante.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -135,27 +163,36 @@
         <div
           class="absolute w-full h-full rounded-xl overflow-hidden [backface-visibility:hidden]"
         >
-          <img
-            src="/Image/GoldTeeth/img8.webp"
-            alt="img"
+          <Image
+            src={img8}
+            alt="img8"
             class="object-cover w-full h-full rounded-tr-[50%] rounded-bl-[50%]"
+            width={800}
+            height={800}
           />
         </div>
 
         <!-- Reverse -->
 
         <div
-          class="absolute p-4 w-full h-full rounded-tl-[50%] rounded-br-[50%] text-slate-100 flex flex-col items-center justify-center gap-2 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]"
-          style={{
-            backgroundImage: `url(/Image/GoldTeeth/Background.webp)`,
-          }}
+          class="absolute w-full h-full rounded-tl-[50%] rounded-br-[50%] text-slate-100 flex flex-col items-center justify-center gap-2 text-center [transform:rotateY(180deg)] [backface-visibility:hidden] overflow-hidden"
         >
-          <h1 class="text-base font-bold">Odontología restauradora</h1>
-          <p class="text-base">
-            Repare los dientes dañados o faltantes con nuestros tratamientos
-            restauradores, como implantes dentales, coronas, puentes y prótesis
-            dentales.
-          </p>
+          <Image
+            src={BackgroundGoldTeeth}
+            alt=""
+            class="absolute inset-0 object-cover w-full h-full"
+            width={800}
+            height={800}
+          />
+
+          <div class="relative z-10 p-4">
+            <h1 class="text-base font-bold">Odontología restauradora</h1>
+            <p class="text-base">
+              Repare los dientes dañados o faltantes con nuestros tratamientos
+              restauradores, como implantes dentales, coronas, puentes y
+              prótesis dentales.
+            </p>
+          </div>
         </div>
       </div>
     </div>

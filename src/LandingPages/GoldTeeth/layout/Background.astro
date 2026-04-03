@@ -1,15 +1,22 @@
 ---
+import { Image } from "astro:assets";
+import BackgroundGoldTeeth from "../../../../public/Image/GoldTeeth/Background.webp";
+import img1 from "../../../../public/Image/GoldTeeth/img1.webp";
+import img2 from "../../../../public/Image/GoldTeeth/img2.webp";
+import img3 from "../../../../public/Image/GoldTeeth/img3.webp";
 import Modal from "../components/ui/Modal";
 ---
 
 <div class="relative flex flex-col items-center justify-center">
-  <div
-    class="absolute inset-0 w-full h-auto bg-center bg-cover"
-    style={{
-      backgroundImage: `url(/Image/GoldTeeth/Background.webp)`,
-    }}
-  >
-  </div>
+  <Image
+    src={BackgroundGoldTeeth}
+    alt="alt"
+    class="absolute inset-0 object-cover object-center w-full h-full"
+    width={1920}
+    height={1080}
+    sizes="100vw"
+    widths={[640, 1024, 1600, 1920]}
+  />
 
   <dv
     class="relative flex flex-col items-center justify-center gap-4 py-8 text-center text-slate-100"
@@ -20,22 +27,29 @@ import Modal from "../components/ui/Modal";
     >
       <div class="items-center justify-center hidden grid-cols-2 gap-2 md:grid">
         <div class="flex flex-col items-end gap-2">
-          <img
-            src="/Image/GoldTeeth/img1.webp"
-            alt="alt"
+          <Image
+            src={img1}
+            alt="img1"
             class="object-contain rounded-t-full w-60 h-60"
+            width={800}
+            height={800}
           />
-          <img
-            src="/Image/GoldTeeth/img2.webp"
-            alt="alt"
+
+          <Image
+            src={img2}
+            alt="img2"
             class="object-contain rounded-b-full w-60 h-60"
+            width={800}
+            height={800}
           />
         </div>
         <div class="flex">
-          <img
-            src="/Image/GoldTeeth/img3.webp"
-            alt="alt"
+          <Image
+            src={img3}
+            alt="img3"
             class="object-contain rounded-t-full w-60 h-60"
+            width={800}
+            height={800}
           />
         </div>
       </div>
@@ -50,7 +64,7 @@ import Modal from "../components/ui/Modal";
             máxima calidad en un entorno cómodo y acogedor.
           </p>
 
-            <Modal client:load/>
+          <Modal client:load />
 
           <div>
             <p class="">⭐⭐⭐⭐⭐(4.8)</p>

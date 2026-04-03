@@ -1,4 +1,7 @@
 ---
+import { Image } from "astro:assets";
+import img4 from "../../../../public/Image/GoldTeeth/img4.webp";
+import img5 from "../../../../public/Image/GoldTeeth/img5.webp";
 import HeaderGoldteeth from "../layout/HeaderGoldteeth.astro";
 import Catalog from "../layout/Catalog.astro";
 import Details from "../layout/Details.astro";
@@ -21,16 +24,20 @@ import FooterGoldteeth from "../layout/FooterGoldteeth.astro";
           >
           </div>
 
-          <img
-            src="/Image/GoldTeeth/img4.webp"
-            alt="alt"
+          <Image
+            src={img4}
+            alt="img4"
             class="object-cover w-full h-full row-span-2 rounded-tl-[50%] rounded-br-[50%]"
+            width={800}
+            height={800}
           />
 
-          <img
-            src="/Image/GoldTeeth/img5.webp"
-            alt="alt"
+          <Image
+            src={img5}
+            alt="img5"
             class="object-cover w-full h-full row-span-2 row-start-2 rounded-tr-[50%] rounded-bl-[50%]"
+            width={800}
+            height={800}
           />
           <div
             class="w-full h-full col-start-2 row-span-2 row-start-3 rounded-tl-[50%] rounded-br-[50%] bg-rose-800 dark:bg-beige-100"
