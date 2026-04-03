@@ -1,13 +1,22 @@
 ---
-
+import IconDetails from "../components/ui/IconDetails.astro";
 ---
 
 <div class="flex flex-col items-center justify-center w-full gap-1">
-
   <div class="flex flex-col items-center justify-center w-full gap-4 mt-7">
+    <!-- 
+    I couldn't find how to optimize the images with Image because 
+    it would be better to leave them that way.
+    -->
+
+    <!-- 
+    The problem is that since the image is inside Details, 
+    when you close the details it appears blank, a half effect is achieved 
+     -->
+
     <details
       class="relative w-full mx-auto overflow-hidden transition-all duration-800 rounded-xl text-slate-100 group open:pb-3"
-      style="background-image: url('/Image/CampingNight/img8.webp'); background-size: cover; background-position: center;  "
+      style="background-image: url('/Image/CampingNight/img8.webp'); background-size: cover; background-position: center;"
     >
       <summary
         class="relative z-10 flex items-center justify-between p-4 text-lg font-bold cursor-pointer select-none"
@@ -15,15 +24,7 @@
         <span>Zona de Inscripción</span>
 
         <!-- Icon + / - -->
-        <span
-          class="relative w-4 h-4 before:content-[''] after:content-['']
-       before:absolute after:absolute
-       before:w-full before:h-[2px] after:w-full after:h-[2px]
-       before:bg-slate-100 after:bg-slate-100
-       before:top-1/2 before:left-0 after:top-1/2 after:left-0
-       before:-translate-y-1/2 after:-translate-y-1/2
-       after:rotate-90 transition-transform duration-300 group-open:after:rotate-0"
-        ></span>
+        <IconDetails />
       </summary>
 
       <div
@@ -38,7 +39,7 @@
 
     <details
       class="relative w-full mx-auto overflow-hidden transition-all duration-800 rounded-xl text-slate-100 group open:pb-3"
-      style="background-image: url('/Image/CampingNight/img9.webp'); background-size: cover; background-position: center;         class="
+      style="background-image: url('/Image/CampingNight/img9.webp'); background-size: cover; background-position: center;"
     >
       <summary
         class="relative z-10 flex items-center justify-between p-4 text-lg font-bold cursor-pointer select-none"
@@ -46,15 +47,7 @@
         <span>¡Bienvenido a Camping Night!</span>
 
         <!-- Icon + / - -->
-        <span
-          class="relative w-4 h-4 before:content-[''] after:content-['']
-       before:absolute after:absolute
-       before:w-full before:h-[2px] after:w-full after:h-[2px]
-       before:bg-slate-100 after:bg-slate-100
-       before:top-1/2 before:left-0 after:top-1/2 after:left-0
-       before:-translate-y-1/2 after:-translate-y-1/2
-       after:rotate-90 transition-transform duration-300 group-open:after:rotate-0"
-        ></span>
+        <IconDetails />
       </summary>
 
       <div
@@ -79,15 +72,7 @@
         <span>Comodidad y limpieza, siempre cerca</span>
 
         <!-- Icon + / - -->
-        <span
-          class="relative w-4 h-4 before:content-[''] after:content-['']
-       before:absolute after:absolute
-       before:w-full before:h-[2px] after:w-full after:h-[2px]
-       before:bg-slate-100 after:bg-slate-100
-       before:top-1/2 before:left-0 after:top-1/2 after:left-0
-       before:-translate-y-1/2 after:-translate-y-1/2
-       after:rotate-90 transition-transform duration-300 group-open:after:rotate-0"
-        ></span>
+        <IconDetails />
       </summary>
 
       <div
@@ -112,15 +97,7 @@
         <span>¿Olvidaste algo? ¡No te preocupes!</span>
 
         <!-- Icon + / - -->
-        <span
-          class="relative w-4 h-4 before:content-[''] after:content-['']
-       before:absolute after:absolute
-       before:w-full before:h-[2px] after:w-full after:h-[2px]
-       before:bg-slate-100 after:bg-slate-100
-       before:top-1/2 before:left-0 after:top-1/2 after:left-0
-       before:-translate-y-1/2 after:-translate-y-1/2
-       after:rotate-90 transition-transform duration-300 group-open:after:rotate-0"
-        ></span>
+        <IconDetails />
       </summary>
 
       <div
@@ -144,15 +121,7 @@
         <span>La magia comienza al caer el sol</span>
 
         <!-- Icon + / - -->
-        <span
-          class="relative w-4 h-4 before:content-[''] after:content-['']
-       before:absolute after:absolute
-       before:w-full before:h-[2px] after:w-full after:h-[2px]
-       before:bg-slate-100 after:bg-slate-100
-       before:top-1/2 before:left-0 after:top-1/2 after:left-0
-       before:-translate-y-1/2 after:-translate-y-1/2
-       after:rotate-90 transition-transform duration-300 group-open:after:rotate-0"
-        ></span>
+        <IconDetails />
       </summary>
 
       <div

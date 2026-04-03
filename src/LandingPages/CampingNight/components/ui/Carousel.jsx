@@ -94,6 +94,7 @@ export default function Slider() {
                                 src={pkg.image}
                                 alt="alt"
                                 className="inset-0 object-cover w-full h-full transition-all duration-300 rounded-xl"
+                                loading="lazy"
                             />
 
                             <div

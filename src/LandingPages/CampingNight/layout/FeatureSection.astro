@@ -1,17 +1,20 @@
 ---
-
+import { Image } from "astro:assets";
+import Background2 from "../../../../public/Image/CampingNight/Background2.webp";
 ---
 
 <div class="relative flex flex-col items-center justify-center">
-  <div
-    class="absolute inset-0 w-full h-auto bg-center bg-cover"
-    style={{
-      backgroundImage: `url(/Image/CampingNight/Background2.webp)`,
-    }}
-  >
-  </div>
+  <Image
+    src={Background2}
+    alt="alt"
+    class="absolute inset-0 w-full h-full object-center object-cover"
+    width={1920}
+    height={1080}
+    sizes="100vw"
+    widths={[640, 1024, 1600, 1920]}
+  />
 
-  <dv
+  <div
     class="relative flex flex-col items-center justify-center gap-2 px-4 py-20 text-center text-zinc-950 w-full max-w-[80rem]"
   >
     <h3 class="text-sm text-slate-50 md:text-base">
@@ -26,7 +29,7 @@
       class="grid items-start justify-center grid-cols-1 gap-4 mt-6 md:grid-cols-3"
     >
       <div
-        class="flex flex-col items-start justify-center h-full gap-4 p-4 rounded-lg bg-slate-100/50 "
+        class="flex flex-col items-start justify-center h-full gap-4 p-4 rounded-lg bg-slate-100/50"
       >
         <h1 class="text-xl font-bold md:text-2xl">Seguridad en cada rincón</h1>
 
@@ -38,7 +41,7 @@
       </div>
 
       <div
-        class="flex flex-col items-start justify-center h-full gap-4 p-4 rounded-lg bg-slate-100/50 "
+        class="flex flex-col items-start justify-center h-full gap-4 p-4 rounded-lg bg-slate-100/50"
       >
         <h1 class="text-xl font-bold md:text-2xl">
           Pet Friendly: comparte la aventura con tu mascota
@@ -53,7 +56,7 @@
       </div>
 
       <div
-        class="flex flex-col items-start justify-center h-full gap-4 p-4 rounded-lg bg-slate-100/50 "
+        class="flex flex-col items-start justify-center h-full gap-4 p-4 rounded-lg bg-slate-100/50"
       >
         <h1 class="text-xl font-bold md:text-2xl">
           Espacio natural y comodidad en equilibrio
@@ -67,5 +70,5 @@
         </p>
       </div>
     </div>
-  </dv>
+  </div>
 </div>
