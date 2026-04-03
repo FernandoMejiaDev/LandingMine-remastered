@@ -1,4 +1,6 @@
 ---
+import { Image } from "astro:assets";
+import img1 from "../../../../public/Image/CampingNight/img1.webp";
 import HeaderCampingNight from "../layout/HeaderCampingNight.astro";
 import Carousel from "../components/ui/Carousel";
 import FeatureSection from "../layout/FeatureSection.astro";
@@ -11,7 +13,7 @@ import FooterCampingNight from "../layout/FooterCampingNight.astro";
 >
   <HeaderCampingNight />
 
-  <main class="flex p-4 pt-20  w-full m-auto max-w-[80rem]">
+  <main class="flex p-4 pt-20 w-full m-auto max-w-[80rem]">
     <section class="flex flex-col gap-8">
       <div
         class="grid items-center justify-center grid-cols-1 gap-4 md:grid-cols-2"
@@ -30,10 +32,12 @@ import FooterCampingNight from "../layout/FooterCampingNight.astro";
           </p>
         </div>
 
-        <img
-          src="/Image/CampingNight/img1.webp"
-          alt="alt"
+        <Image
+          src={img1}
+          alt="img1"
           class="object-cover w-full h-full"
+          width={800}
+          height={800}
         />
       </div>
 
@@ -41,7 +45,9 @@ import FooterCampingNight from "../layout/FooterCampingNight.astro";
         <h1 class="text-xl font-bold text-center md:text-2xl">
           Vive la experiencia completa del campamento bajo las estrellas
         </h1>
-        <p class="max-w-xl text-base text-center text-black dark:text-orange-400 md:text-lg">
+        <p
+          class="max-w-xl text-base text-center text-black dark:text-orange-400 md:text-lg"
+        >
           En Camping Night cada experiencia está pensada para reconectarte con
           la naturaleza, disfrutar momentos auténticos y crear recuerdos que te
           acompañarán siempre.
@@ -54,7 +60,7 @@ import FooterCampingNight from "../layout/FooterCampingNight.astro";
 
   <FeatureSection />
 
-  <section class="flex p-4  pb-36 w-full m-auto max-w-[80rem]">
+  <section class="flex p-4 pb-36 w-full m-auto max-w-[80rem]">
     <Details />
   </section>
 </div>
