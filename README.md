@@ -1,3 +1,15 @@
+> [!Important]
+> Este repositorio corresponde a la versión remasterizada de **LandingMine**, reconstruida desde cero para mejorar la arquitectura, el stack y la calidad del proyecto.  
+> 
+> A diferencia de la versión original, aquí se prioriza un mejor entendimiento del propósito de cada landing, reduciendo la cantidad a 13 pero aumentando significativamente su calidad y coherencia.  
+> 
+> El proyecto ahora utiliza Astro y refleja un enfoque más sólido en la creación de interfaces modernas y mejor estructuradas.  
+> 
+> **Esta es la versión activa del proyecto.** 
+> 
+> Puedes ver la versión original aquí:  
+> [LandingMine](https://github.com/FernandoMejiaDev/LandingMine)
+
 ![LandingMineLogo](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/LandingMine.webp)
 
 # LandingMine
