@@ -39,7 +39,7 @@ Cada una de estas páginas permite experimentar con distintos enfoques de diseñ
 
 Para mantener un código limpio y estructurado, cada landing page en **LandingMine** sigue una organización bien definida dentro de la carpeta `src`.  
 
-## 📁 Estructura de archivos  
+### 📁 Estructura de archivos  
 
 Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
 
@@ -48,7 +48,7 @@ Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing e
 
 Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
 
-## 🏗 Estructura de una Landing Page  
+### 🏗 Estructura de una Landing Page  
 
 Todas las landing pages del proyecto adoptan una estructura modular y organizada, lo que facilita su mantenimiento y escalabilidad. Cada landing sigue esta estructura de carpetas:
 
