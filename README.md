@@ -22,7 +22,7 @@ Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño pro
 - Diseños modernos y optimizados con Tailwind CSS.
 - Desarrolladas con Astro, React lo que permite componentes reutilizables y mejor mantenimiento del código.
   
-## 🎨 Diseño y Temáticas de las Landing Pages  
+## Diseño y Temáticas de las Landing Pages  
 
 Cada landing page en **LandingMine** está diseñada con una temática única y completamente **responsive**, adaptándose a distintos dispositivos y tamaños de pantalla.  
 El objetivo principal es explorar y mejorar en **Front-End**, creando interfaces variadas que se ajusten a diferentes industrias y estilos visuales.  
