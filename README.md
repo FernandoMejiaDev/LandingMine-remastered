@@ -19,7 +19,7 @@ Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño pro
 </div>
 
 - 100% responsive y adaptadas a distintos dispositivos.
-- 🎯 Diseños modernos y optimizados con Tailwind CSS.
+- Diseños modernos y optimizados con Tailwind CSS.
 - ⚡ Desarrolladas con Astro, React lo que permite componentes reutilizables y mejor mantenimiento del código.
   
 ## 🎨 Diseño y Temáticas de las Landing Pages  
