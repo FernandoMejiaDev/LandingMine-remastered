@@ -29,17 +29,17 @@ El objetivo principal es explorar y mejorar en **Front-End**, creando interfaces
 
 Cada landing tiene su propio diseño y características especiales:  
 
-- 🎭 **Diseño personalizado:** Cada página sigue un estilo acorde a su temática.  
-- 🌙 **Modos de color:** Algunas incluyen **Dark Mode** para mejorar la experiencia visual.  
-- 🎨 **Interactividad:** Se han agregado **Interactividad a cada landing** para hacerlas más dinámicas.  
+- **Diseño personalizado:** Cada página sigue un estilo acorde a su temática.  
+- **Modos de color:** Algunas incluyen **Dark Mode** para mejorar la experiencia visual.  
+- **Interactividad:** Se han agregado **Interactividad a cada landing** para hacerlas más dinámicas.  
 
 Cada una de estas páginas permite experimentar con distintos enfoques de diseño y **crear interfaces Front-End adaptadas a diversas necesidades**.  
 
-## 🗂 Organización del Proyecto  
+## Organización del Proyecto  
 
 Para mantener un código limpio y estructurado, cada landing page en **LandingMine** sigue una organización bien definida dentro de la carpeta `src`.  
 
-## 📁 Estructura de archivos  
+## Estructura de archivos  
 
 Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
 
@@ -48,7 +48,7 @@ Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing e
 
 Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
 
-## 🏗 Estructura de una Landing Page  
+## Estructura de una Landing Page  
 
 Todas las landing pages del proyecto adoptan una estructura modular y organizada, lo que facilita su mantenimiento y escalabilidad. Cada landing sigue esta estructura de carpetas:
 
@@ -70,23 +70,23 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 └── utils/      
 ```
 
-## 🌍 Componentes Globales
+## Componentes Globales
 Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
 
 Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
 
-## 🔆 DarkMode
+## DarkMode
 Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
 
-## 📱 MobileMenu
+## MobileMenu
 Este componente maneja el menú móvil, que aparece en pantallas menores a md **(768px en Tailwind CSS).** Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
 
 Para solucionar esto, **MobileMenu** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
 
 Estas propiedades permiten que el menú:
-- **✅ Tenga colores adaptados al diseño de cada landing.**
-- **✅ Mantenga una buena visibilidad sin importar el fondo de la página.**
-- **✅ Se integre de forma fluida con la experiencia del usuario.**
+- **Tenga colores adaptados al diseño de cada landing.**
+- **Mantenga una buena visibilidad sin importar el fondo de la página.**
+- **Se integre de forma fluida con la experiencia del usuario.**
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
 
