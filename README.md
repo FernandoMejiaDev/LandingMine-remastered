@@ -6,7 +6,7 @@ Catálogo de **13 landing pages** con temáticas variadas (restaurantes, e-comme
 
 Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 <div align="left">
 
