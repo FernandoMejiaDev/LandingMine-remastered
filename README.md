@@ -132,7 +132,7 @@ Una landing page ideal para **pizzerías** que buscan atraer más clientes y mos
 <details>
 <summary>GYM</summary>
 
-<br>
+# GYM
   
 Landing page pensada para **gimnasios** que quieren promocionar sus servicios, destacar sus entrenadores y captar nuevos miembros.
 
