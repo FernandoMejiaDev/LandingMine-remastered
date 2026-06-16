@@ -71,12 +71,9 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 ```
 
 ## Componentes Globales
-Dentro de la carpeta LandingPages, hay una subcarpeta llamada GlobalComponents. Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
+Dentro de la carpeta LandingPages, hay una subcarpeta llamada **GlobalComponents.** Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
 
 Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
-
-## DarkMode
-Este archivo contiene la lógica que permite cambiar entre el modo claro y oscuro en las landing pages. Con este componente, los usuarios pueden alternar entre ambos modos sin afectar la estructura del sitio.
 
 ## MobileMenu
 Este componente maneja el menú móvil, que aparece en pantallas menores a md **(768px en Tailwind CSS).** Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
