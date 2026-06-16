@@ -143,7 +143,7 @@ Landing page pensada para **gimnasios** que quieren promocionar sus servicios, d
 <details>
 <summary>Marketing Agency</summary>
 
-<br>
+# Marketing Agency
   
 Diseñada para agencias de **marketing digital** que necesitan una presentación profesional para captar clientes y mostrar su portafolio.
 
