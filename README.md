@@ -121,7 +121,7 @@ Explora una colección de landing pages, pensadas para destacar en cualquier sec
 <details>
 <summary>Pizza Up</summary>
 
-<br>
+# Pizza Up
   
 Una landing page ideal para **pizzerías** que buscan atraer más clientes y mostrar su menú de forma visual y atractiva.
 
