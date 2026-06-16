@@ -44,9 +44,24 @@ Para mantener un código limpio y estructurado, cada landing page en **LandingMi
 Dentro de **src**, encontrarás la carpeta **LandingPage,** donde cada landing está organizada en su propia carpeta. Además, hay carpetas de **componentes globales** y **hooks**:  
 
 - **LandingPage/** Contiene todas las landing pages, cada una en su propia carpeta.  
-- **GlobalComponents/** Contiene componentes reutilizables como `DarkMode` y `MenuMobile`.  
-
+- **GlobalComponents/** Contiene componentes reutilizables como `DarkMode` y `MenuMobile`.
+  
 Cada landing tiene su estructura específica para facilitar su mantenimiento y escalabilidad.  
+
+## Componentes Globales
+Dentro de la carpeta LandingPages, hay una subcarpeta llamada **GlobalComponents.** Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
+
+Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
+
+## MobileMenu
+Este componente maneja el menú móvil, que aparece en pantallas menores a md **(768px en Tailwind CSS).** Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
+
+Para solucionar esto, **MobileMenu** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
+
+Estas propiedades permiten que el menú:
+- **Tenga colores adaptados al diseño de cada landing.**
+- **Mantenga una buena visibilidad sin importar el fondo de la página.**
+- **Se integre de forma fluida con la experiencia del usuario.**
 
 ## Estructura de una Landing Page  
 
@@ -69,21 +84,6 @@ Todas las landing pages del proyecto adoptan una estructura modular y organizada
 │
 └── utils/      
 ```
-
-## Componentes Globales
-Dentro de la carpeta LandingPages, hay una subcarpeta llamada **GlobalComponents.** Aquí se encuentran componentes que son utilizados en todas las landing pages del proyecto.
-
-Estos componentes tienen una lógica simple pero útil para mejorar la experiencia del usuario y la personalización del diseño en cada landing.
-
-## MobileMenu
-Este componente maneja el menú móvil, que aparece en pantallas menores a md **(768px en Tailwind CSS).** Sin embargo, dado que cada landing page tiene un diseño y una combinación de colores distinta, no se puede definir un color único para todos los menús.
-
-Para solucionar esto, **MobileMenu** permite personalizar ciertos estilos a través de propiedades dinámicas. Cada landing puede ajustar estos valores para que el menú encaje perfectamente con su diseño.
-
-Estas propiedades permiten que el menú:
-- **Tenga colores adaptados al diseño de cada landing.**
-- **Mantenga una buena visibilidad sin importar el fondo de la página.**
-- **Se integre de forma fluida con la experiencia del usuario.**
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
 
