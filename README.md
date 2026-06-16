@@ -2,7 +2,7 @@
 
 # LandingMine
 
-Catálogo de **13 landing pages** con temáticas variadas (restaurantes, e-commerce, inmobiliarias, y más), diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.
+Catálogo de **13 landing pages** con temáticas variadas **(restaurantes, e-commerce, inmobiliarias, y más),** diseñado para mostrar interfaces modernas y adaptadas a distintos tipos de negocio.
 
 Ideal para reclutadores o clientes que buscan ver ejemplos reales de diseño profesional aplicado a distintos sectores.
 
