@@ -154,7 +154,7 @@ Diseñada para agencias de **marketing digital** que necesitan una presentación
 <details>
 <summary>Pig Bank</summary>
 
-<br>
+# Pig Bank
   
 Una landing para **bancos o fintechs** que desean transmitir confianza y presentar sus productos financieros de forma clara.
 
@@ -165,7 +165,7 @@ Una landing para **bancos o fintechs** que desean transmitir confianza y present
 <details>
 <summary>Good Trip</summary>
 
-<br>
+# Good Trip
   
 Landing enfocada en **agencias de viaje** que buscan inspirar a sus clientes y mostrar sus paquetes turísticos de manera atractiva.
 
@@ -176,7 +176,7 @@ Landing enfocada en **agencias de viaje** que buscan inspirar a sus clientes y m
 <details>
 <summary>Cooktopia Shop</summary>
 
-<br>
+# Cooktopia Shop
   
 Landing page pensada para una **tienda de artículos de cocina** que buscan vender sus productos de forma moderna y organizada.
 
@@ -187,7 +187,7 @@ Landing page pensada para una **tienda de artículos de cocina** que buscan vend
 <details>
 <summary>Dream House</summary>
 
-<br>
+# Dream House
   
 Ideal para **agencias inmobiliarias** que quieren mostrar propiedades destacadas y captar nuevos compradores o arrendatarios.
 
@@ -198,7 +198,7 @@ Ideal para **agencias inmobiliarias** que quieren mostrar propiedades destacadas
 <details>
 <summary>Flashing</summary>
 
-<br>
+# Flashing
   
 Landing page pensada para **empresas que organizan convenciones, encuentros o experiencias en vivo,** Ideal para negocios que buscan mostrar su profesionalismo.
 
@@ -209,7 +209,7 @@ Landing page pensada para **empresas que organizan convenciones, encuentros o ex
 <details>
 <summary>Shinrai</summary>
 
-<br>
+# Shinrai
   
 Landing page pensada para **academias de Karate** o defensa personal que desean transmitir disciplina, respeto y confianza.
 
@@ -220,7 +220,7 @@ Landing page pensada para **academias de Karate** o defensa personal que desean 
 <details>
 <summary>Morgana</summary>
 
-<br>
+# Morgana
   
 Pensada para **concesionarias de autos** que quieren presentar su catálogo de vehículos y atraer potenciales compradores.
 
@@ -231,7 +231,7 @@ Pensada para **concesionarias de autos** que quieren presentar su catálogo de v
 <details>
 <summary>Gold Teeth</summary>
 
-<br>
+# Gold Teeth
   
 Landing page ideal para **clínicas dentales** que desean ofrecer sus servicios, generar confianza y captar nuevos pacientes.
 
@@ -242,7 +242,7 @@ Landing page ideal para **clínicas dentales** que desean ofrecer sus servicios,
 <details>
 <summary>Camping Night</summary>
 
-<br>
+# Camping Night
   
 Diseñada para empresas de **campamentos** que buscan promocionar experiencias al aire libre y atraer a los amantes de la naturaleza.
 
@@ -253,7 +253,7 @@ Diseñada para empresas de **campamentos** que buscan promocionar experiencias a
 <details>
 <summary>StarIA</summary>
 
-<br>
+# StarIA
   
 Agente conversacional impulsado por **inteligencia artificial,** Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas.
 
