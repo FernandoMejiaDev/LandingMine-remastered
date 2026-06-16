@@ -90,13 +90,12 @@ Estas propiedades permiten que el menú:
 
 Gracias a esta estructura, cada landing page tiene su propio estilo sin perder consistencia en la navegación y funcionalidad.
 
-<details>
-<summary>Landing Pages</summary>
-
-<br>
+# Landing Pages
 
 <details>
 <summary>LandingMine</summary>
+
+# LandingMine
 
 ### Diseños que inspiran. Código que impresiona.
 Explora una colección de landing pages, pensadas para destacar en cualquier sector.
@@ -261,8 +260,6 @@ Agente conversacional impulsado por **inteligencia artificial,** Ideal para equi
 ![img](https://github.com/FernandoMejiaDev/LandingMine-remastered/blob/main/README/StarIA.webp)
 
 </details>
-</details>
-
 </details>
 
 </details>
